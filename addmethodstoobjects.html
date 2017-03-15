@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+function person(name, age){
+this.name=name;
+this.age=age;
+this.YearsUntilRetire = yearsLeft;
+}
+function yearsLeft(){
+var Numyears = 65 - this.age;
+return Numyears;
+}
+var ram = new person("Ram",20);
+</script>
+</head>
+<body>
+<script type="text/javascript">
+document.write(ram.YearsUntilRetire());
+</script>
+</body>
+</html>

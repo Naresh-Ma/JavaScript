@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function validator(){
+if(document.naresh.checkbox.checked){
+alert("You checked the checkbox");
+}
+alert("Please check the check box");
+}
+</script>
+</head>
+<body>
+<form name="naresh">
+<input type="checkbox" name="checkbox"/>
+<input type="button" value="Press me!" onClick="validator()"/>
+</form>
+<script type="text/javascript">
+var x = document.forms[0].elements[0].name;
+document.write(x);
+</script>
+</body>
+</html>
